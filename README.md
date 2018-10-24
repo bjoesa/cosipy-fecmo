@@ -1,4 +1,4 @@
-# fau-fdm: Friedrich-Alexander-University Firn Densification Model
+# COSIPY-FecMo: A coupled glacier surface SEB + SMB and glacier subsurface firn elevation change model 
     
 Author: @bjoesa
     
@@ -8,7 +8,8 @@ The dry_densification scheme is based on Herron and Langway (1980)[1],
 you find the PDF e.g. on [cambridge.org](https://www.cambridge.org/core/journals/journal-of-glaciology/article/firn-densification-an-empirical-model/C9A2B038004A938670B689A6DAE6D89E).
 
 ## VERY IMPORTANT
-The fdm is written in python 3 and tested with Anaconda3 on the Python 3.6.3 Shell.
+The fdm is written in python 3 and tested with Anaconda3 on the Python 3.6.3 Shell on Windows10 and Ubuntu 16.04 LTS.
+THE MODEL IST IN DEVELOPMENT.
 
 ## Logging control
 
@@ -67,7 +68,10 @@ Which level should be saved to logfile?
 
 - albedo: 
 
+### postprocessing, input and output
 
+- input data is MAR 3.5.2 data for a test point in Vestfonna Ice Cap (Svalbard) (courtesy by Xavier Fettweis) DO NOT DISTRIBUTE THIS DATA, ITS NOT VALIDATED.
+- postprocessing contains the result output stuff
 
 
 [1]: Herron, M., & Langway, C. (1980). Firn Densification: An Empirical Model. Journal of Glaciology, 25(93), 373-385. doi:10.3189/S0022143000015239
